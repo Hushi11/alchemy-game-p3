@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 8953659901680461458}
   - component: {fileID: 2763578035021749232}
   - component: {fileID: -3186195134493429520}
-  - component: {fileID: -1657208736580026778}
-  - component: {fileID: 4485307578562752645}
   m_Layer: 0
   m_Name: Knife Weapon
   m_TagString: Untagged
@@ -99,63 +97,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 141d04b9ec6bc654b9f19bcfd50efbee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: 91460bbb04b16e64baae2cc9986976c1, type: 2}
   destroyAfterSeconds: 3
---- !u!60 &-1657208736580026778
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173225355120719178}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.24}
-    newSize: {x: 0.24, y: 0.24}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.017553862, y: 0.11372047}
-      - {x: -0.028021645, y: 0.111365646}
-      - {x: -0.028813124, y: 0.08642056}
-      - {x: -0.008551028, y: 0.045914955}
-      - {x: -0.05852866, y: 0.011464354}
-      - {x: -0.10194636, y: -0.022386823}
-      - {x: -0.09645177, y: -0.06979576}
-      - {x: -0.076247536, y: -0.106656}
-      - {x: 0.12, y: -0.12}
-      - {x: 0.123924695, y: -0.018870585}
-      - {x: 0.030720942, y: 0.046043303}
-      - {x: 0.050957177, y: 0.10194636}
---- !u!50 &4485307578562752645
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173225355120719178}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
