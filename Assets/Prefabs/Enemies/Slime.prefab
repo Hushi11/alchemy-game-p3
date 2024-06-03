@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5865531899014090696}
   - component: {fileID: -6276161839661241316}
   - component: {fileID: 4400131270217474420}
+  - component: {fileID: 4230402152711023582}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -156,3 +157,24 @@ MonoBehaviour:
   - name: Blue Gem
     itemPrefab: {fileID: 1007468395895162062, guid: db272d3d3512a4c4eb24bff3464de3b1, type: 3}
     dropRate: 50
+--- !u!95 &4230402152711023582
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5371653197076388439}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5827ecc0c0e5b94db395aa4f4d285bb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
