@@ -10,5 +10,6 @@ public class HealingPotion : Pickup, ICollectible
     {
         PlayerStats player = FindObjectOfType<PlayerStats>();
         player.RestoreHealth(healthToRestore);
+        Destroy(gameObject);
     }
 }
